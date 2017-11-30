@@ -1,0 +1,12 @@
+CheckInIntent check me in
+CheckInIntent check in
+
+CheckOutIntent check me out
+CheckOutIntent check out
+
+RegisterIntent register me
+RegisterIntent register
+
+RegisterWithNameIntent My name is {FirstName}
+RegisterWithNameIntent I'm {FirstName}
+RegisterWithNameIntent {FirstName}

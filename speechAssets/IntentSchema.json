@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "CheckInIntent"
+    },
+    {
+      "intent" : "CheckOutIntent"
+    },
+    {
+      "intent" : "RegisterIntent"
+    },
+    {
+      "intent" : "RegisterWithNameIntent",
+      "slots" : [
+        {
+          "name": "FirstName",
+          "type" : "AMAZON.US_FIRST_NAME"
+        }
+      ]
+    }
+  ]
+}

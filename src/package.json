@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kalebscholes/aws2017-alexa-hackathon#readme",
   "dependencies": {
-    "alexa-sdk": "^1.0.21"
+    "alexa-sdk": "^1.0.21",
+    "axios": "^0.17.1"
   }
 }
