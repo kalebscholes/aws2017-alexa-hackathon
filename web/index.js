@@ -29,7 +29,7 @@ app.get('/take/picture', function(req, res){
   console.log('Asked To Take Picture');
   io.emit('take picture', 'smile');
 
-  globalSocket.on('picture', async function(base64) {
+  globalSocket.once('picture', async function(base64) {
     var response = { result: 'NO_PICTURE'};
     if(base64){
       console.log('GOT PICTURE')         
@@ -59,9 +59,9 @@ app.get('/take/picture', function(req, res){
 
 app.get('/register/:name', function(req, res){
   console.log('Asked To register');
-  io.emit('take picture', 'smile');
+  io.emit('register picture', 'smile');
 
-  globalSocket.on('picture', async function(base64) {
+  globalSocket.once('register', async function(base64) {
     const name = req.params.name
     var response = { 
       result: 'NO_PICTURE',
