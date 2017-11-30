@@ -1,0 +1,22 @@
+{
+  "name": "aws2017-alexa-hackathon",
+  "version": "1.0.0",
+  "description": "Awesome Alexa Skill for AWS 2017 Hackathon",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kalebscholes/aws2017-alexa-hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalebscholes/aws2017-alexa-hackathon/issues"
+  },
+  "homepage": "https://github.com/kalebscholes/aws2017-alexa-hackathon#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.21"
+  }
+}
